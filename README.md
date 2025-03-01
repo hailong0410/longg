@@ -29,8 +29,8 @@ each library: [Python](emotiefflib/README.md) and [C++](emotieffcpplib/README.md
 - Predict engagement and emotions on video [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/python/Predict%20engagement%20and%20emotions%20on%20video.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/python/Predict%20engagement%20and%20emotions%20on%20video.ipynb)
 
 ### C++ interface of EmotiEffLib
-- One image emotion recognition [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/cpp/One%20image%20emotion%20recognition.ipynb)
-- Predict emotions on video [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/cpp/Predict%20emotions%20on%20video.ipynb)
+- One image emotion recognition [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/cpp/One%20image%20emotion%20recognition.ipynb) [![Open In MyBinder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sb-ai-lab/EmotiEffLib/main?filepath=docs/tutorials/cpp/One%20image%20emotion%20recognition.ipynb)
+- Predict emotions on video [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/cpp/Predict%20emotions%20on%20video.ipynb) [![Open In MyBinder](https://static.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sb-ai-lab/EmotiEffLib/main?filepath=docs/tutorials/cpp/Predict%20emotions%20on%20video.ipynb)
 - Predict engagement and emotions on video [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/cpp/Predict%20engagement%20and%20emotions%20on%20video.ipynb)
 
 ## Usage
