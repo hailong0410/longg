@@ -3,11 +3,11 @@
 Here you can find examples of using EmotiEffLib in C++.
 
 Here is a list of examples:
-- [One image emotion recognition.ipynb](https://github.com/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/cpp/One%20image%20emotion%20recognition.ipynb)
+- [One image emotion recognition.ipynb](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/cpp/One%20image%20emotion%20recognition.ipynb)
     describes how to use EmotiEffLib to recognize facial emotions on images.
-- [Predict emotions on video.ipynb](https://github.com/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/cpp/Predict%20emotions%20on%20video.ipynb) describes
+- [Predict emotions on video.ipynb](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/cpp/Predict%20emotions%20on%20video.ipynb) describes
     how to use EmotiEffLib for predicting facial emotions on videos.
-- [Predict engagement and emotions on video.ipynb](https://github.com/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/cpp/Predict%20engagement%20and%20emotions%20on%20video.ipynb) describes how to use EmotiEffLib for predicting facial expressions and recognizing a person's engagement in a video.
+- [Predict engagement and emotions on video.ipynb](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/cpp/Predict%20engagement%20and%20emotions%20on%20video.ipynb) describes how to use EmotiEffLib for predicting facial expressions and recognizing a person's engagement in a video.
 
 ## Building and running examples
 To run the examples locally you need to do the following:

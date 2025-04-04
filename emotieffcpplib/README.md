@@ -28,7 +28,7 @@ At least one of `WITH_TORCH` or `WITH_ONNX` must be enabled.
 ## Installation
 ### 1. Clone the repository
 ```sh
-git clone https://github.com/av-savchenko/EmotiEffLib.git
+git clone https://github.com/sb-ai-lab/EmotiEffLib.git
 cd EmotiEffLib
 git submodule update --init --recursive
 ```

@@ -20,8 +20,8 @@ setup(
     author="Andrey Savchenko, Egor Churaev",
     author_email="andrey.v.savchenko@gmail.com, egor.churaev@gmail.com",
     packages=find_packages("."),
-    download_url="https://github.com/av-savchenko/EmotiEffLib/archive/v1.0.tar.gz",
-    url="https://github.com/av-savchenko/EmotiEffLib",
+    download_url="https://github.com/sb-ai-lab/EmotiEffLib/archive/v1.0.tar.gz",
+    url="https://github.com/sb-ai-lab/EmotiEffLib",
     description="EmotiEffLib Python Library for Facial Emotion and Engagement Recognition",
     keywords=[
         "face expression recognition",

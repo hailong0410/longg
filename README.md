@@ -1,10 +1,10 @@
 # EmotiEffLib: Library for Efficient Emotion Analysis and Facial Expression Recognition
-[![Tests](https://github.com/av-savchenko/EmotiEffLib/actions/workflows/tests.yml/badge.svg)](https://github.com/av-savchenko/EmotiEffLib/actions/workflows/tests.yml)
+[![Tests](https://github.com/sb-ai-lab/EmotiEffLib/actions/workflows/tests.yml/badge.svg)](https://github.com/sb-ai-lab/EmotiEffLib/actions/workflows/tests.yml)
 [![pypi package](https://img.shields.io/badge/version-v1.0-blue)]([https://pypi.org/project/emotiefflib](https://pypi.org/project/emotiefflib/))
-[![License](https://img.shields.io/pypi/l/emotiefflib)](https://github.com/av-savchenko/EmotiEffLib/blob/main/LICENSE)
+[![License](https://img.shields.io/pypi/l/emotiefflib)](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/LICENSE)
 [![Downloads](https://static.pepy.tech/personalized-badge/emotiefflib?period=total&units=international_system&left_color=grey&right_color=blue&left_text=pip%20installs)](https://pepy.tech/project/emotiefflib)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/classifying-emotions-and-engagement-in-online/facial-expression-recognition-on-affectnet)](https://paperswithcode.com/sota/facial-expression-recognition-on-affectnet?p=classifying-emotions-and-engagement-in-online)
-[![GitHub stars](https://img.shields.io/github/stars/av-savchenko/emotiefflib.svg?style=social&label=Star&maxAge=8640)](https://github.com/av-savchenko/emotiefflib/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/sb-ai-lab/emotiefflib.svg?style=social&label=Star&maxAge=8640)](https://github.com/sb-ai-lab/emotiefflib/stargazers/)
 
 EmotiEffLib (ex-HSEmotion) is a lightweight library for emotion and
 engagement recognition in photos and videos. It can be used in Python and C++.
@@ -15,7 +15,7 @@ This repository contains two implementations of EmotiEffLib: [Python](emotieffli
 
 ## Documentation
 
-Full documentation is available [here](https://av-savchenko.github.io/EmotiEffLib/).
+Full documentation is available [here](https://sb-ai-lab.github.io/EmotiEffLib/).
 
 ## Installing
 
@@ -24,14 +24,14 @@ each library: [Python](emotiefflib/README.md) and [C++](emotieffcpplib/README.md
 
 ## Quick start guide
 ### Python interface of EmotiEffLib
-- One image emotion recognition [notebook](https://github.com/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/python/One%20image%20emotion%20recognition.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/python/One%20image%20emotion%20recognition.ipynb)
-- Predict emotions on video [notebook](https://github.com/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/python/Predict%20emotions%20on%20video.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/python/Predict%20emotions%20on%20video.ipynb)
-- Predict engagement and emotions on video [notebook](https://github.com/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/python/Predict%20engagement%20and%20emotions%20on%20video.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/python/Predict%20engagement%20and%20emotions%20on%20video.ipynb)
+- One image emotion recognition [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/python/One%20image%20emotion%20recognition.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/python/One%20image%20emotion%20recognition.ipynb)
+- Predict emotions on video [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/python/Predict%20emotions%20on%20video.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/python/Predict%20emotions%20on%20video.ipynb)
+- Predict engagement and emotions on video [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/python/Predict%20engagement%20and%20emotions%20on%20video.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/python/Predict%20engagement%20and%20emotions%20on%20video.ipynb)
 
 ### C++ interface of EmotiEffLib
-- One image emotion recognition [notebook](https://github.com/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/cpp/One%20image%20emotion%20recognition.ipynb)
-- Predict emotions on video [notebook](https://github.com/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/cpp/Predict%20emotions%20on%20video.ipynb)
-- Predict engagement and emotions on video [notebook](https://github.com/av-savchenko/EmotiEffLib/blob/main/docs/tutorials/cpp/Predict%20engagement%20and%20emotions%20on%20video.ipynb)
+- One image emotion recognition [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/cpp/One%20image%20emotion%20recognition.ipynb)
+- Predict emotions on video [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/cpp/Predict%20emotions%20on%20video.ipynb)
+- Predict engagement and emotions on video [notebook](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/docs/tutorials/cpp/Predict%20engagement%20and%20emotions%20on%20video.ipynb)
 
 ## Usage
 
@@ -56,7 +56,7 @@ pip install timm==0.4.5
 ## News
 - Our models let our team HSEmotion took the 1st places in the Expression Recognition and Ambivalence/Hesitancy Recognition Challenges and the 3rd places in the Action Unit Detection and Emotional Mimicry Intensity Estimation challenges during the [eighth Affective Behavior Analysis in-the-wild (ABAW) Competition](https://affective-behavior-analysis-in-the-wild.github.io/8th/)
 - Our models let our team HSEmotion took the second place in the Compound Expression Recognition Challenge and the 3rd place in the Action Unit Detection during the [sixth ABAW Competition](https://affective-behavior-analysis-in-the-wild.github.io/6th/)
-- The paper "Facial Expression Recognition with Adaptive Frame Rate based on Multiple Testing Correction" has been accepted as Oral talk at [ICML 2023](https://icml.cc/Conferences/2023). The source code to reproduce the results of this paper are available at this repository, see subsections "Adaptive Frame Rate" at [abaw3_train.ipynb](https://github.com/av-savchenko/EmotiEffLib/blob/main/training_and_examples/ABAW/abaw3_train.ipynb) and [train_emotions-pytorch-afew-vgaf.ipynb](https://github.com/av-savchenko/EmotiEffLib/blob/main/training_and_examples/affectnet/train_emotions-pytorch-afew-vgaf.ipynb)
+- The paper "Facial Expression Recognition with Adaptive Frame Rate based on Multiple Testing Correction" has been accepted as Oral talk at [ICML 2023](https://icml.cc/Conferences/2023). The source code to reproduce the results of this paper are available at this repository, see subsections "Adaptive Frame Rate" at [abaw3_train.ipynb](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/training_and_examples/ABAW/abaw3_train.ipynb) and [train_emotions-pytorch-afew-vgaf.ipynb](https://github.com/sb-ai-lab/EmotiEffLib/blob/main/training_and_examples/affectnet/train_emotions-pytorch-afew-vgaf.ipynb)
 - Our models let our team HSE-NN took the first place in the Learning from Synthetic Data (LSD) Challenge and the 3rd place in the Multi-Task Learning (MTL) Challenge in the [fourth ABAW Competition](https://ibug.doc.ic.ac.uk/resources/eccv-2023-4th-abaw/)
 - Our models let our team HSE-NN took the 3rd place in the multi-task learning challenge, 4th places in Valence-Arousal and Expression challenges and 5th place in the Action Unite Detection Challenge in the [third ABAW Competition](https://ibug.doc.ic.ac.uk/resources/cvpr-2022-3rd-abaw/). Our approach is presented in the [paper](https://arxiv.org/abs/2203.13436) accepted at CVPR 2022 ABAW Workshop.
 

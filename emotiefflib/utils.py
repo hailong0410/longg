@@ -22,7 +22,7 @@ def download_model(model_file: str, path_in_repo: str) -> str:
     fpath = os.path.join(cache_dir, model_file)
     if not os.path.isfile(fpath):
         url = (
-            "https://github.com/av-savchenko/EmotiEffLib/blob/main/"
+            "https://github.com/sb-ai-lab/EmotiEffLib/blob/main/"
             + path_in_repo
             + model_file
             + "?raw=true"
