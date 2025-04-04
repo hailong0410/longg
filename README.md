@@ -6,7 +6,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/classifying-emotions-and-engagement-in-online/facial-expression-recognition-on-affectnet)](https://paperswithcode.com/sota/facial-expression-recognition-on-affectnet?p=classifying-emotions-and-engagement-in-online)
 [![GitHub stars](https://img.shields.io/github/stars/av-savchenko/emotiefflib.svg?style=social&label=Star&maxAge=8640)](https://github.com/av-savchenko/emotiefflib/stargazers/)
 
-EmotiEffLib (Emotion Efficient Library) is a lightweight library for emotion and
+EmotiEffLib (ex-HSEmotion) is a lightweight library for emotion and
 engagement recognition in photos and videos. It can be used in Python and C++.
 It provides flexibility with backend support for Pytorch and ONNX, enabling
 efficient real-time analysis across various platforms.
