@@ -2,7 +2,5 @@ streamlit
 opencv-python
 numpy
 Pillow
-facenet-pytorch
 torch
-
- emotiefflib @ git+https://github.com/emotieff/emotiefflib.git
+facenet-pytorch
