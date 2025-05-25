@@ -69,7 +69,7 @@ def main():
         # Convert BGR → RGB để hiển thị
         disp = cv2.cvtColor(frame_proc, cv2.COLOR_BGR2RGB)
         if emotion:
-            st.image(disp, caption=f"Cảm xúc phát hiện: {emotion}", use_column_width=True)
+            st.image(disp, caption=f"Cảm xúc phát hiện: {emotion}", use_container_width=True)
         else:
             st.image(disp, caption="Không phát hiện khuôn mặt", use_column_width=True)
 if __name__ == "__main__":
