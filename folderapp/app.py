@@ -49,34 +49,28 @@ class RealTimeEmotionRecognizer:
         return frame_bgr, emotions[0]  # Trả về frame đã vẽ và emotion đầu tiên
 
 def main():
-    st.title("🎥 Nhận diện cảm xúc realtime từ webcam")
+    st.title("🎥 Nhận diện cảm xúc từ camera")
 
+    # Chọn thiết bị và model
     device = st.sidebar.selectbox("Chọn thiết bị", ["cpu", "cuda"])
-    model_name_list = get_model_list()
-    model_name = st.sidebar.selectbox("Chọn model", model_name_list)
+    model_name = st.sidebar.selectbox("Chọn model", get_model_list())
 
     recognizer = RealTimeEmotionRecognizer(model_name=model_name, device=device)
 
-    run = st.checkbox("Bật webcam và nhận diện")
-    FRAME_WINDOW = st.image([])
+    # Dùng camera_input capture ảnh tĩnh
+    img_file = st.camera_input("Chụp ảnh webcam để nhận diện cảm xúc")
+    if img_file is not None:
+        # PIL Image → np.array → BGR
+        pil_img = Image.open(img_file)
+        rgb_img = np.array(pil_img)
+        bgr_img = cv2.cvtColor(rgb_img, cv2.COLOR_RGB2BGR)
 
-    cap = None
-    if run:
-        cap = cv2.VideoCapture(0)  # Mở webcam mặc định
-        while True:
-            ret, frame = cap.read()
-            if not ret:
-                st.warning("Không lấy được hình ảnh từ webcam.")
-                break
-
-            frame_processed, emotion = recognizer.process_frame(frame)
-            FRAME_WINDOW.image(frame_processed)
-
-            # Dừng vòng lặp nếu user tắt checkbox
-            if not run:
-                break
-    if cap:
-        cap.release()
-
+        frame_proc, emotion = recognizer.process_frame(bgr_img)
+        # Convert BGR → RGB để hiển thị
+        disp = cv2.cvtColor(frame_proc, cv2.COLOR_BGR2RGB)
+        if emotion:
+            st.image(disp, caption=f"Cảm xúc phát hiện: {emotion}", use_column_width=True)
+        else:
+            st.image(disp, caption="Không phát hiện khuôn mặt", use_column_width=True)
 if __name__ == "__main__":
     main()
