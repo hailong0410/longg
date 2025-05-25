@@ -6,6 +6,3 @@ torch
 facenet-pytorch
 opencv-python-headless
 emotiefflib
-streamlit-webrtc
-av
-aiohttp
