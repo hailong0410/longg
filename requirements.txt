@@ -5,3 +5,4 @@ Pillow
 torch
 facenet-pytorch
 opencv-python-headless
+emotiefflib
