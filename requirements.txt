@@ -1,5 +1,8 @@
-numpy
-onnx
-onnxruntime
+streamlit
 opencv-python
-pillow
+numpy
+Pillow
+facenet-pytorch
+torch
+
+ emotiefflib @ git+https://github.com/emotieff/emotiefflib.git
